@@ -524,3 +524,11 @@ class EmojiPickerState extends State<EmojiPicker> {
     super.dispose();
   }
 }
+
+extension EmojiPickerExtension on EmojiPicker {
+  static Future<void> registerRecentEmoji(Emoji emoji) async {
+    /// とりあえずカテゴリはなしで
+    EmojiPickerInternalUtils()
+        .addEmojiToRecentlyUsed(emoji: emoji);
+  }
+}
