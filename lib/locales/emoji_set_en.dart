@@ -1263,8 +1263,8 @@ const List<CategoryEmoji> emojiSetEnglish = [
       'adorbs | animal | dog | face | pet | puppies | puppy',
     ),
     Emoji(
-      '🐱',
-      'animal | cat | face | kitten | kitty | pet',
+      '🐕',
+      'adorbs | animal | dog | face | pet | puppies | puppy',
     ),
     Emoji(
       '🐭',
@@ -1549,6 +1549,18 @@ const List<CategoryEmoji> emojiSetEnglish = [
     Emoji(
       '🦉',
       'animal | bird | ornithology | owl | wise',
+    ),
+    Emoji(
+      '🦤',
+      'animal | bird | dodo',
+    ),
+    Emoji(
+      '🪶',
+      'feather | animal | wing',
+    ),
+    Emoji(
+      '🦩',
+      'animal | bird | flamingo',
     ),
     Emoji(
       '🦚',
